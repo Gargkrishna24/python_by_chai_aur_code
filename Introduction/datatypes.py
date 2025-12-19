@@ -48,7 +48,7 @@ dictionary = {
 }
 print(dictionary)
 
-# type Casting 
+# type Casting - implicit casting and explicit casting
 """
 int(),float(),str().bool()
 """
