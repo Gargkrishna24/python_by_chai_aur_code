@@ -21,6 +21,11 @@ print(result)
 string  = " Hello ! My name is krishna"
 print(string)
 
+# String slicing => a[start:end:difference]
+slicing=string[-8:-1:1]
+print(slicing)
+
+
 list =  ['data ', 'data2','data3']
 print(list)
 
@@ -42,3 +47,33 @@ dictionary = {
   'none': None
 }
 print(dictionary)
+
+# type Casting 
+"""
+int(),float(),str().bool()
+"""
+
+x = -123
+xstr = str(x)
+xbool = bool(x)
+xfloat=float(x)
+print("change int into str",type(xstr),xstr)
+print("change int into float",type(xfloat),xfloat)
+print("change int into bool",type(xbool),xbool)  # it only return false when we intialse the x with 0 otherwise this line return true
+
+y = True 
+yint = int(y)
+yfloat = float(y)
+ystr = str(y)
+print("changing bool into int : ",type(yint),yint)
+print("changing bool into float : ",type(yfloat),yfloat)
+print("changing bool into str : ",type(ystr),ystr)
+
+z = "krishna Garg"
+#zint = int(z) ======>>>we cant do this
+#zfloat = float(z)   ======>>>we cant do this
+zbool = bool(z)
+
+#print("changing str into int : ", type(zint),zint)    ======>>>we cant do this
+#print("changing str into float : ", type(zfloat),zfloat)    ======>>>we cant do this
+print("changing str into bool : ", type(zbool),zbool)
