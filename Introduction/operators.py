@@ -51,3 +51,6 @@ print("apple"in vegetables)
 print("bindi"  in vegetables)
 print("bindi" not in vegetables)
 
+check_type = type(vegetables)
+print(check_type)
+
