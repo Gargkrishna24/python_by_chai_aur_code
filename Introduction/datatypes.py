@@ -1,10 +1,11 @@
 # 1. Numeric type - int number , flaot nber , complex nber
 
 a = 3 
-b = 10.20
+b = 10.20 # if anything in p/q is always a float number
 c =20+4j
+d = 20/30
 print(a,b,c)
-print(type(a) ,type(b) ,type(c))
+print(type(a) ,type(b) ,type(c) , type(d))
 
 # 2. Boolean - True , False -> for logical operations
 is_raining =  True
