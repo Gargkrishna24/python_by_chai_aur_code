@@ -53,4 +53,8 @@ print("bindi" not in vegetables)
 
 check_type = type(vegetables)
 print(check_type)
-
+"""
+KrishnaGarg  => pascal case
+krishnaGarg  => camel case
+krishna_garg => snake case
+"""
