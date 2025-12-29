@@ -9,7 +9,8 @@ print("add=",(x+y));
 print("subs=",(x-y));
 print("division=",(x/y)); # give decimal values
 print("floor=",(x//y)); # remove values after decimals
-print("Modulus=",(x%y)); # remainder
+print("Modulus=",(x%y));
+print(f"Exponent => {x**y} ")# remainder = 1000
 print()
 # Comparisions Operators - always give boolean values - Equal to , NOt Equal to  , greater than , less than less than or equal to , grater than or equal to 
 print("comparision operators")
